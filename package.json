@@ -1,0 +1,17 @@
+{
+  "name": "location-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Sony An <sony.an@outlook.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/datastore": "^1.1.0",
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.0"
+  }
+}
